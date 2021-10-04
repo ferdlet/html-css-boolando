@@ -26,12 +26,26 @@ body {
     float: left;
 }
 
-img {
+.img-origin {
    width: 100%;
    height: 350px;
    object-fit: cover;
 }
 
+.img-hover {
+   width: 100%;
+   height: 350px;
+   object-fit: cover;
+   display: none;
+}
+
+.item:hover .img-origin {
+    display: none;
+}
+
+.item:hover .img-hover {
+    display: inline-block;
+}
 
 
 
