@@ -58,6 +58,27 @@ body {
     text-align: center;
 }
 
+.sconto-green {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+}
+
+.sconto, .green {
+    font-size: 9px;
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    padding: 2px 3px;
+}
+
+.sconto {
+    background-color: rgb(255, 0, 55);
+}
+
+.green {
+    background-color: seagreen;
+}
 
 
 /* ***** debug ***** */
