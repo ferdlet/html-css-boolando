@@ -24,6 +24,7 @@ body {
     margin-right: 10px;
     margin-bottom: 20px;
     float: left;
+    position: relative;
 }
 
 .img-origin {
@@ -47,6 +48,15 @@ body {
     display: inline-block;
 }
 
+.preferiti {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    background-color: white;
+    text-align: center;
+}
 
 
 
